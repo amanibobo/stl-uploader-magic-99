@@ -26,8 +26,8 @@ const UploadComplete = ({ onReset }: UploadCompleteProps) => {
         <CheckCircle className="w-12 h-12 text-green-500" />
       </motion.div>
 
-      <h3 className="text-xl font-medium">Upload Complete!</h3>
-      <p className="text-sm text-gray-500">Your STL file has been processed successfully</p>
+      <h3 className="text-xl font-medium">Fine-tuning in Progress!</h3>
+      <p className="text-sm text-gray-500">Your object is being optimized on our robot VLM</p>
 
       <button
         onClick={onReset}
